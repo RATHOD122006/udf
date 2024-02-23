@@ -6,9 +6,11 @@ void num(int s){
 		printf("the given number is not Divisible by both 3 and 5");
 	}
 }
-main(){
+int main(){
 	
 	int a;
 	scanf("%d",&a);
 	num(a);
+	
+	return 0;
 }
